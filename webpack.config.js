@@ -6,6 +6,10 @@ module.exports = {
     filename: 'bundled.js',
     path: path.resolve(__dirname, 'app')
  },
+ devServer: {
+  port: 5000,
+ },
+
  mode: 'development',
  watch: true
 }
